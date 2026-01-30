@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tasks</title>
+    <style>
+      body { font-family: Arial, sans-serif; margin: 2rem; color: #222; padding: 1rem; }
+      .panel { background: #f8fafc; padding: 1rem; border-radius: 8px; border: 1px solid #e2e8f0; }
+      .grid { display: grid; grid-template-columns: 1fr 2fr 1fr 1fr auto; gap: 2rem; align-items: end; }
+      .grid > div { padding: 0.25rem 0; }
+      .grid label { font-size: 0.9rem; color: #334155; display: block; margin-bottom: 0.25rem; }
+      input[type="text"], input[type="date"], select { width: 100%; padding: 0.5rem; border: 1px solid #cbd5e1; border-radius: 6px; }
+      button { padding: 0.5rem 0.75rem; border: none; border-radius: 6px; background: #0ea5e9; color: white; cursor: pointer; }
+      button.secondary { background: #64748b; }
+      table { border-collapse: collapse; width: 100%; margin-top: 1rem; }
+      th, td { border: 1px solid #ddd; padding: 0.5rem; text-align: left; }
+      th { background: #f5f5f5; }
+      form.inline { display: inline; }
+      .filters { margin: 1rem 0; }
+    </style>
+  </head>
+  <body>
+    <h1>Tasks</h1>
+
+    <div class="panel">
+      <form method="post" action="/tasks">
+        <div class="grid">
+          <div>
+            <label for="title">Title</label>
+            <input type="text" id="title" name="title" placeholder="Task title" required />
+          </div>
+          <div>
+            <label for="description">Description</label>
+            <input type="text" id="description" name="description" placeholder="Optional details" />
+          </div>
+          <div>
+            <label for="due_date">Due date</label>
+            <input type="date" id="due_date" name="due_date" min="{{ today }}" />
+          </div>
+          <div>
+            <label for="status">Status</label>
+            <select id="status" name="status">
+              <option value="todo" selected>Todo</option>
+              <option value="in_progress">In Progress</option>
+              <option value="done">Done</option>
+            </select>
+          </div>
+          <div>
+            <button type="submit">Add task</button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <div class="filters">
+      <form method="get" action="/tasks">
+        <label for="status">Filter by status:</label>
+        <select name="status" id="status" onchange="this.form.submit()">
+          <option value="" {% if not status %}selected{% endif %}>All</option>
+          <option value="todo" {% if status == 'todo' %}selected{% endif %}>Todo</option>
+          <option value="in_progress" {% if status == 'in_progress' %}selected{% endif %}>In Progress</option>
+          <option value="done" {% if status == 'done' %}selected{% endif %}>Done</option>
+        </select>
+      </form>
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Title</th>
+          <th>Description</th>
+          <th>Status</th>
+          <th>Created at</th>
+          <th>Due date</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for task in tasks %}
+          <tr>
+            <td>{{ task.id }}</td>
+            <td>{{ task.title }}</td>
+            <td>{{ task.description or '' }}</td>
+            <td>{{ task.status }}</td>
+            <td>{{ task.created_at }}</td>
+            <td>{{ task.due_date or '' }}</td>
+            <td>
+              {% if task.status != 'done' %}
+                <form class="inline" method="post" action="/tasks/{{ task.id }}/done">
+                  <button type="submit">Mark done</button>
+                </form>
+              {% else %}
+                Done
+              {% endif %}
+            </td>
+          </tr>
+        {% else %}
+          <tr>
+            <td colspan="7">No tasks found.</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+
+    <p><a href="/">Back home</a></p>
+  </body>
+</html>
