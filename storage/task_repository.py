@@ -1,3 +1,4 @@
+import logging
 from datetime import datetime, date
 
 from sqlalchemy import or_, select
@@ -9,6 +10,7 @@ class TaskRepository:
     def __init__(self, session_factory, json_store):
         self.session_factory = session_factory
         self.json_store = json_store
+        self.logger = logging.getLogger(__name__)
 
     def _task_to_dict(self, task: Task):
         return {
@@ -28,6 +30,7 @@ class TaskRepository:
             session.refresh(task)
             result = self._task_to_dict(task)
         self._sync_json()
+        self.logger.info("Repo created task %s", result["id"])
         return result
 
     def list(self, status=None, q=None, sort="created_at"):
@@ -61,6 +64,7 @@ class TaskRepository:
             session.refresh(task)
             result = self._task_to_dict(task)
         self._sync_json()
+        self.logger.info("Repo updated task %s", task_id)
         return result
 
     def delete(self, task_id: int) -> bool:
@@ -71,8 +75,10 @@ class TaskRepository:
             session.delete(task)
             session.commit()
         self._sync_json()
+        self.logger.info("Repo deleted task %s", task_id)
         return True
 
     def _sync_json(self):
         tasks = self.list()
         self.json_store.replace_all(tasks)
+        self.logger.info("Synced JSON store count=%s", len(tasks))

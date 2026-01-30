@@ -2,3 +2,4 @@ data
 __pycache__
 .env
 myenv
+utils/__pycache__

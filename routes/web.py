@@ -1,9 +1,12 @@
+import logging
+
 from flask import Blueprint, current_app, redirect, render_template, request, url_for
 
 from utils.validation import validate_status
 
 
 web_bp = Blueprint("web", __name__)
+logger = logging.getLogger(__name__)
 
 
 def _repo():
@@ -29,6 +32,7 @@ def tasks_page():
             task = _repo().create(title, description, parsed_due)
             if status != "todo":
                 _repo().update(task["id"], {"status": status})
+            logger.info("Created task via UI %s", task["id"])
         return redirect(url_for("web.tasks_page"))
 
     status = request.args.get("status")
@@ -37,10 +41,17 @@ def tasks_page():
     from datetime import date
 
     tasks = _repo().list(status=status)
-    return render_template("tasks.html", tasks=tasks, status=status, today=date.today().isoformat())
+    logger.info("Rendered tasks page count=%s", len(tasks))
+    return render_template(
+        "tasks.html",
+        tasks=tasks,
+        status=status,
+        today=date.today().isoformat(),
+    )
 
 
 @web_bp.route("/tasks/<int:task_id>/done", methods=["POST"])
 def mark_done(task_id: int):
     _repo().update(task_id, {"status": "done"})
+    logger.info("Marked task done via UI %s", task_id)
     return redirect(url_for("web.tasks_page"))

@@ -1,5 +1,3 @@
-import logging
-
 from flask import Flask, jsonify, request
 
 from routes.api import api_bp
@@ -7,12 +5,13 @@ from routes.web import web_bp
 from storage.db import init_db, init_engine, make_session_factory
 from storage.json_store import JsonStore
 from storage.task_repository import TaskRepository
+from utils.logger import setup_logging
 
 
 def create_app():
     app = Flask(__name__)
 
-    logging.basicConfig(level=logging.INFO, format="[%(asctime)s] %(levelname)s: %(message)s")
+    setup_logging()
 
     engine = init_engine()
     init_db(engine)
