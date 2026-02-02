@@ -1,5 +1,7 @@
 import os
 from datetime import datetime
+from pathlib import Path
+from sqlalchemy.engine import make_url
 
 from sqlalchemy import Column, Date, DateTime, Integer, String, Text, create_engine
 from sqlalchemy.orm import declarative_base, sessionmaker
@@ -24,7 +26,14 @@ def get_database_url():
 
 
 def init_engine():
-    return create_engine(get_database_url(), future=True)
+    database_url = get_database_url()
+    url = make_url(database_url)
+    if url.drivername.startswith("sqlite") and url.database and url.database != ":memory:":
+        db_path = Path(url.database)
+        if not db_path.is_absolute():
+            db_path = Path.cwd() / db_path
+        db_path.parent.mkdir(parents=True, exist_ok=True)
+    return create_engine(database_url, future=True)
 
 
 def init_db(engine):
