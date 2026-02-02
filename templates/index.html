@@ -5,13 +5,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Mini Task Manager</title>
     <style>
-      body { font-family: Arial, sans-serif; margin: 2rem; color: #222; }
-      a { color: #0b5; }
+      @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,600&display=swap");
+      :root {
+        --ink: #12131a;
+        --ink-soft: #2c2f3a;
+        --muted: #6b7280;
+        --accent: #ff7a59;
+        --accent-2: #2fbf71;
+        --paper: #fff9f2;
+        --surface: #ffffff;
+        --line: #e8e1d9;
+        --shadow: 0 10px 30px rgba(18, 19, 26, 0.12);
+        --radius: 18px;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        padding: 2.5rem 1.5rem 3rem;
+        color: var(--ink);
+        font-family: "Space Grotesk", system-ui, sans-serif;
+        background:
+          radial-gradient(1200px 500px at 10% -10%, #ffe5d4 0%, transparent 60%),
+          radial-gradient(900px 500px at 90% 0%, #e3f7ef 0%, transparent 60%),
+          linear-gradient(180deg, #fffaf5 0%, #fff 60%, #f8f4ef 100%);
+        min-height: 100vh;
+      }
+      h1 {
+        font-family: "Newsreader", serif;
+        font-weight: 600;
+        font-size: clamp(2rem, 3vw, 2.75rem);
+        margin: 0 0 0.5rem;
+        letter-spacing: -0.02em;
+      }
+      .subtitle {
+        color: var(--muted);
+        margin: 0 0 1.5rem;
+      }
+      .wrap {
+        max-width: 1000px;
+        margin: 0 auto;
+      }
+      .panel {
+        background: var(--surface);
+        padding: 1.5rem;
+        border-radius: var(--radius);
+        border: 1px solid var(--line);
+        box-shadow: var(--shadow);
+      }
+      .cta {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 0.65rem 1rem;
+        border-radius: 999px;
+        background: var(--accent);
+        color: white;
+        text-decoration: none;
+        font-weight: 600;
+        transition: transform 0.12s ease, box-shadow 0.12s ease;
+      }
+      .cta:hover {
+        transform: translateY(-1px);
+        box-shadow: 0 6px 18px rgba(255, 122, 89, 0.25);
+      }
+      .meta {
+        color: var(--ink-soft);
+        margin-top: 1rem;
+      }
+      @media (max-width: 720px) {
+        body { padding: 1.5rem 1rem 2.5rem; }
+      }
     </style>
   </head>
   <body>
-    <h1>Mini Task Manager</h1>
-    <p>Welcome! Manage your tasks via API or the simple UI.</p>
-    <p><a href="/tasks">View tasks</a></p>
+    <div class="wrap">
+      <h1>Mini Task Manager</h1>
+      <p class="subtitle">A clean, live-updating task board with API-first controls.</p>
+      <div class="panel">
+        <p>Manage your tasks via API or the simplified UI.</p>
+        <p><a class="cta" href="/tasks">View tasks</a></p>
+        <p class="meta">Tip: Use the status toggle to cycle todo → in progress → done.</p>
+      </div>
+    </div>
   </body>
 </html>

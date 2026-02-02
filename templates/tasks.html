@@ -5,76 +5,204 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Tasks</title>
     <style>
-      body { font-family: Arial, sans-serif; margin: 2rem; color: #222; padding: 1rem; }
-      .panel { background: #f8fafc; padding: 1rem; border-radius: 8px; border: 1px solid #e2e8f0; }
-      .grid { display: grid; grid-template-columns: 1fr 2fr 1fr 1fr auto; gap: 2rem; align-items: end; }
-      .grid > div { padding: 0.25rem 0; }
-      .grid label { font-size: 0.9rem; color: #334155; display: block; margin-bottom: 0.25rem; }
-      input[type="text"], input[type="date"], select { width: 250px; padding: 0.5rem; border: 1px solid #cbd5e1; border-radius: 6px; }
-      button { padding: 0.5rem 0.75rem; border: none; border-radius: 6px; background: #0ea5e9; color: white; cursor: pointer; }
-      button.secondary { background: #64748b; }
-      table { border-collapse: collapse; width: 100%; margin-top: 1rem; }
-      th, td { border: 1px solid #ddd; padding: 0.5rem; text-align: left; }
-      th { background: #f5f5f5; }
+      @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,600&display=swap");
+      :root {
+        --ink: #12131a;
+        --ink-soft: #2c2f3a;
+        --muted: #6b7280;
+        --accent: #ff7a59;
+        --accent-2: #2fbf71;
+        --paper: #fff9f2;
+        --surface: #ffffff;
+        --line: #e8e1d9;
+        --shadow: 0 10px 30px rgba(18, 19, 26, 0.12);
+        --radius: 18px;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        padding: 2.5rem 1.5rem 3rem;
+        color: var(--ink);
+        font-family: "Space Grotesk", system-ui, sans-serif;
+        background:
+          radial-gradient(1200px 500px at 10% -10%, #ffe5d4 0%, transparent 60%),
+          radial-gradient(900px 500px at 90% 0%, #e3f7ef 0%, transparent 60%),
+          linear-gradient(180deg, #fffaf5 0%, #fff 60%, #f8f4ef 100%);
+        min-height: 100vh;
+      }
+      h1 {
+        font-family: "Newsreader", serif;
+        font-weight: 600;
+        font-size: clamp(2rem, 3vw, 2.75rem);
+        margin: 0 0 0.5rem;
+        letter-spacing: -0.02em;
+      }
+      .subtitle {
+        color: var(--muted);
+        margin: 0 0 1.5rem;
+      }
+      .wrap {
+        max-width: 1100px;
+        margin: 0 auto;
+      }
+      .panel {
+        background: var(--surface);
+        padding: 1rem 1.25rem;
+        border-radius: var(--radius);
+        border: 1px solid var(--line);
+        box-shadow: var(--shadow);
+      }
+      .filters {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        margin: 1rem 0 1.5rem;
+      }
+      .filters label {
+        font-weight: 600;
+        color: var(--ink-soft);
+      }
+      select {
+        min-width: 220px;
+        padding: 0.6rem 0.8rem;
+        border: 1px solid var(--line);
+        border-radius: 12px;
+        background: #fff;
+        font-family: "Space Grotesk", system-ui, sans-serif;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        background: var(--surface);
+        border-radius: var(--radius);
+        overflow: hidden;
+        box-shadow: var(--shadow);
+      }
+      thead {
+        background: #fff1e3;
+      }
+      th, td {
+        padding: 0.9rem 1rem;
+        text-align: left;
+        border-bottom: 1px solid var(--line);
+        font-size: 0.95rem;
+      }
+      th {
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        font-size: 0.75rem;
+        color: var(--ink-soft);
+      }
+      tr:hover td {
+        background: #fff7ef;
+      }
+      td:nth-child(2) {
+        font-weight: 600;
+      }
+      .status-pill {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.4rem;
+        padding: 0.25rem 0.6rem;
+        border-radius: 999px;
+        font-size: 0.8rem;
+        font-weight: 600;
+        color: var(--ink);
+        background: #f3f4f6;
+      }
+      .status-pill.todo { background: #fff0d6; }
+      .status-pill.in_progress { background: #e4f0ff; }
+      .status-pill.done { background: #e3f7ef; }
+      button {
+        padding: 0.5rem 0.85rem;
+        border: none;
+        border-radius: 999px;
+        background: var(--accent);
+        color: white;
+        font-weight: 600;
+        cursor: pointer;
+        transition: transform 0.12s ease, box-shadow 0.12s ease;
+      }
+      button:hover { transform: translateY(-1px); box-shadow: 0 6px 18px rgba(255, 122, 89, 0.25); }
+      button.secondary { background: var(--ink-soft); }
+      button.secondary:hover { box-shadow: 0 6px 18px rgba(44, 47, 58, 0.25); }
       form.inline { display: inline; }
-      .filters { margin: 1rem 0; }
+      .footer-link {
+        display: inline-block;
+        margin-top: 1.5rem;
+        color: var(--ink-soft);
+        text-decoration: none;
+        font-weight: 600;
+      }
+      @media (max-width: 720px) {
+        body { padding: 1.5rem 1rem 2.5rem; }
+        .filters { flex-direction: column; align-items: flex-start; }
+        table { display: block; overflow-x: auto; }
+        th, td { white-space: nowrap; }
+      }
     </style>
   </head>
   <body>
-    <h1>Tasks</h1>
+    <div class="wrap">
+      <h1>Tasks</h1>
+      <p class="subtitle">Live updates with status filters and quick actions.</p>
 
-    <div class="filters">
-      <form method="get" action="/tasks">
-        <label for="status">Filter by status:</label>
-        <select name="status" id="status" onchange="this.form.submit()">
-          <option value="" {% if not status %}selected{% endif %}>All</option>
-          <option value="todo" {% if status == 'todo' %}selected{% endif %}>Todo</option>
-          <option value="in_progress" {% if status == 'in_progress' %}selected{% endif %}>In Progress</option>
-          <option value="done" {% if status == 'done' %}selected{% endif %}>Done</option>
-        </select>
-      </form>
+      <div class="panel filters">
+        <form method="get" action="/tasks">
+          <label for="status">Filter by status:</label>
+          <select name="status" id="status" onchange="this.form.submit()">
+            <option value="" {% if not status %}selected{% endif %}>All</option>
+            <option value="todo" {% if status == 'todo' %}selected{% endif %}>Todo</option>
+            <option value="in_progress" {% if status == 'in_progress' %}selected{% endif %}>In Progress</option>
+            <option value="done" {% if status == 'done' %}selected{% endif %}>Done</option>
+          </select>
+        </form>
+      </div>
+
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Status</th>
+            <th>Created at</th>
+            <th>Due date</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody id="tasks-body">
+          {% for task in tasks %}
+            <tr>
+              <td>{{ task.id }}</td>
+              <td>{{ task.title }}</td>
+              <td>{{ task.description or '' }}</td>
+              <td><span class="status-pill {{ task.status }}">{{ task.status }}</span></td>
+              <td>{{ task.created_at }}</td>
+              <td>{{ task.due_date or '' }}</td>
+              <td>
+                <form class="inline" method="post" action="/tasks/{{ task.id }}/toggle">
+                  {% if task.status == 'todo' %}
+                    <button type="submit">Start</button>
+                  {% elif task.status == 'in_progress' %}
+                    <button type="submit">Mark done</button>
+                  {% else %}
+                    <button type="submit" class="secondary">Reset todo</button>
+                  {% endif %}
+                </form>
+              </td>
+            </tr>
+          {% else %}
+            <tr>
+              <td colspan="7">No tasks found.</td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+
+      <p><a class="footer-link" href="/">Back home</a></p>
     </div>
-
-    <table>
-      <thead>
-        <tr>
-          <th>ID</th>
-          <th>Title</th>
-          <th>Description</th>
-          <th>Status</th>
-          <th>Created at</th>
-          <th>Due date</th>
-          <th>Action</th>
-        </tr>
-      </thead>
-      <tbody id="tasks-body">
-        {% for task in tasks %}
-          <tr>
-            <td>{{ task.id }}</td>
-            <td>{{ task.title }}</td>
-            <td>{{ task.description or '' }}</td>
-            <td>{{ task.status }}</td>
-            <td>{{ task.created_at }}</td>
-            <td>{{ task.due_date or '' }}</td>
-            <td>
-              <form class="inline" method="post" action="/tasks/{{ task.id }}/toggle">
-                {% if task.status != 'done' %}
-                  <button type="submit">Mark done</button>
-                {% else %}
-                  <button type="submit" class="secondary">Mark todo</button>
-                {% endif %}
-              </form>
-            </td>
-          </tr>
-        {% else %}
-          <tr>
-            <td colspan="7">No tasks found.</td>
-          </tr>
-        {% endfor %}
-      </tbody>
-    </table>
-
-    <p><a href="/">Back home</a></p>
     <script>
       (function () {
         const bodyEl = document.getElementById("tasks-body");
@@ -107,15 +235,21 @@
               const status = escapeHtml(task.status);
               const createdAt = escapeHtml(task.created_at || "");
               const dueDate = formatDate(task.due_date);
-              const action =
-                task.status !== "done"
-                  ? `<form class="inline" method="post" action="/tasks/${id}/toggle"><button type="submit">Mark done</button></form>`
-                  : `<form class="inline" method="post" action="/tasks/${id}/toggle"><button type="submit" class="secondary">Mark todo</button></form>`;
+              let actionLabel = "Start";
+              let actionClass = "";
+              if (task.status === "in_progress") {
+                actionLabel = "Mark done";
+              } else if (task.status === "done") {
+                actionLabel = "Reset todo";
+                actionClass = "secondary";
+              }
+              const statusClass = escapeHtml(task.status);
+              const action = `<form class="inline" method="post" action="/tasks/${id}/toggle"><button type="submit" class="${actionClass}">${actionLabel}</button></form>`;
               return `<tr>
                 <td>${id}</td>
                 <td>${title}</td>
                 <td>${description}</td>
-                <td>${status}</td>
+                <td><span class="status-pill ${statusClass}">${status}</span></td>
                 <td>${createdAt}</td>
                 <td>${dueDate}</td>
                 <td>${action}</td>
@@ -135,6 +269,15 @@
           renderRows(tasks);
         }
 
+        async function handleToggleSubmit(event) {
+          const form = event.target.closest("form");
+          if (!form || !form.action.endsWith("/toggle")) return;
+          event.preventDefault();
+          const res = await fetch(form.action, { method: "POST" });
+          if (!res.ok) return;
+          fetchTasks();
+        }
+
         if (statusSelect) {
           statusSelect.addEventListener("change", (event) => {
             event.preventDefault();
@@ -142,6 +285,7 @@
           });
         }
 
+        bodyEl.addEventListener("submit", handleToggleSubmit);
         fetchTasks();
         setInterval(fetchTasks, 5000);
       })();

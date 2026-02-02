@@ -606,3 +606,1208 @@
 [2026-02-02 11:35:46,502] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:35:46] "GET /api/tasks HTTP/1.1" 200 -
 [2026-02-02 11:36:46,502] INFO routes.api: Listed tasks count=6
 [2026-02-02 11:36:46,503] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:36:46] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:37:46,502] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:37:46,502] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:37:46] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:38:46,501] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:38:46,503] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:38:46] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:39:46,503] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:39:46,504] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:39:46] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:40:46,507] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:40:46,508] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:40:46] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:41:35,537] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:41:35,538] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:41:35] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:41:36,656] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:41:36,657] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:41:36] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:41:41,654] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:41:41,655] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:41:41] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:41:47,502] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:41:47,503] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:41:47] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:41:51,655] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:41:51,656] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:41:51] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:42:01,974] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:42:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2026-02-02 11:42:05,507] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:42:05] "GET / HTTP/1.1" 200 -
+[2026-02-02 11:42:06,806] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 11:42:06,807] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:42:06] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 11:42:06,845] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:42:06,847] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:42:06] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:42:12,507] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:42:12,511] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:42:12] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:42:17,497] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:42:17,498] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:42:17] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:42:22,499] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:42:22,500] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:42:22] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:42:27,498] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:42:27,500] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:42:27] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:42:32,505] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:42:32,506] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:42:32] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:42:37,498] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:42:37,499] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:42:37] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:42:42,498] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:42:42,499] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:42:42] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:42:47,498] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:42:47,498] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:42:47] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:42:52,498] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:42:52,498] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:42:52] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:42:57,498] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:42:57,498] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:42:57] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:43:02,498] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:43:02,499] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:43:02] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:43:07,501] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:43:07,501] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:43:07] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:43:46,504] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:43:46,505] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:43:46] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:44:46,500] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:44:46,501] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:44:46] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:45:46,498] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:45:46,498] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:45:46] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:46:46,499] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:46:46,500] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:46:46] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:47:46,503] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:47:46,504] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:47:46] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:48:46,500] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:48:46,501] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:48:46] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:49:46,498] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:49:46,499] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:49:46] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:50:46,499] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:50:46,499] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:50:46] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:51:46,498] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:51:46,499] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:51:46] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:52:46,502] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:52:46,502] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:52:46] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:53:46,498] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:53:46,499] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:53:46] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:53:53,935] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:53:53,938] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:53:53] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:53:56,833] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:53:56,833] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:53:56] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:54:01,833] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:54:01,834] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:01] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:54:06,833] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:54:06,834] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:06] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:54:11,379] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 11:54:11,379] INFO storage.task_repository: Repo updated task 7
+[2026-02-02 11:54:11,379] INFO routes.web: Toggled task status via UI 7 -> done
+[2026-02-02 11:54:11,379] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:11] "[32mPOST /tasks/7/toggle HTTP/1.1[0m" 302 -
+[2026-02-02 11:54:11,385] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 11:54:11,387] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:11] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 11:54:11,463] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:54:11,464] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:11] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:54:12,365] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 11:54:12,365] INFO storage.task_repository: Repo updated task 7
+[2026-02-02 11:54:12,365] INFO routes.web: Toggled task status via UI 7 -> todo
+[2026-02-02 11:54:12,366] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:12] "[32mPOST /tasks/7/toggle HTTP/1.1[0m" 302 -
+[2026-02-02 11:54:12,377] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 11:54:12,378] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:12] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 11:54:12,471] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:54:12,472] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:12] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:54:12,946] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 11:54:12,946] INFO storage.task_repository: Repo updated task 7
+[2026-02-02 11:54:12,947] INFO routes.web: Toggled task status via UI 7 -> done
+[2026-02-02 11:54:12,947] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:12] "[32mPOST /tasks/7/toggle HTTP/1.1[0m" 302 -
+[2026-02-02 11:54:12,951] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 11:54:12,952] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:12] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 11:54:13,007] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:54:13,008] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:13] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:54:13,425] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 11:54:13,425] INFO storage.task_repository: Repo updated task 7
+[2026-02-02 11:54:13,425] INFO routes.web: Toggled task status via UI 7 -> todo
+[2026-02-02 11:54:13,426] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:13] "[32mPOST /tasks/7/toggle HTTP/1.1[0m" 302 -
+[2026-02-02 11:54:13,430] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 11:54:13,431] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:13] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 11:54:13,491] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:54:13,492] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:13] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:54:13,938] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 11:54:13,938] INFO storage.task_repository: Repo updated task 7
+[2026-02-02 11:54:13,938] INFO routes.web: Toggled task status via UI 7 -> done
+[2026-02-02 11:54:13,938] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:13] "[32mPOST /tasks/7/toggle HTTP/1.1[0m" 302 -
+[2026-02-02 11:54:13,943] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 11:54:13,943] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:13] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 11:54:14,004] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:54:14,009] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:14] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:54:14,387] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 11:54:14,387] INFO storage.task_repository: Repo updated task 7
+[2026-02-02 11:54:14,387] INFO routes.web: Toggled task status via UI 7 -> todo
+[2026-02-02 11:54:14,388] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:14] "[32mPOST /tasks/7/toggle HTTP/1.1[0m" 302 -
+[2026-02-02 11:54:14,391] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 11:54:14,392] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:14] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 11:54:14,451] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:54:14,452] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:14] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:54:14,824] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 11:54:14,824] INFO storage.task_repository: Repo updated task 7
+[2026-02-02 11:54:14,824] INFO routes.web: Toggled task status via UI 7 -> done
+[2026-02-02 11:54:14,825] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:14] "[32mPOST /tasks/7/toggle HTTP/1.1[0m" 302 -
+[2026-02-02 11:54:14,827] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 11:54:14,828] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:14] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 11:54:14,875] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:54:14,877] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:14] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:54:15,064] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 11:54:15,065] INFO storage.task_repository: Repo updated task 7
+[2026-02-02 11:54:15,065] INFO routes.web: Toggled task status via UI 7 -> todo
+[2026-02-02 11:54:15,065] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:15] "[32mPOST /tasks/7/toggle HTTP/1.1[0m" 302 -
+[2026-02-02 11:54:15,069] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 11:54:15,070] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:15] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 11:54:15,133] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:54:15,134] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:15] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:54:15,393] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 11:54:15,393] INFO storage.task_repository: Repo updated task 7
+[2026-02-02 11:54:15,393] INFO routes.web: Toggled task status via UI 7 -> done
+[2026-02-02 11:54:15,393] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:15] "[32mPOST /tasks/7/toggle HTTP/1.1[0m" 302 -
+[2026-02-02 11:54:15,396] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 11:54:15,397] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:15] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 11:54:15,446] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:54:15,447] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:15] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:54:16,041] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 11:54:16,041] INFO storage.task_repository: Repo updated task 7
+[2026-02-02 11:54:16,041] INFO routes.web: Toggled task status via UI 7 -> todo
+[2026-02-02 11:54:16,042] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:16] "[32mPOST /tasks/7/toggle HTTP/1.1[0m" 302 -
+[2026-02-02 11:54:16,047] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 11:54:16,048] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:16] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 11:54:16,109] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:54:16,110] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:16] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:54:16,627] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 11:54:16,627] INFO storage.task_repository: Repo updated task 7
+[2026-02-02 11:54:16,628] INFO routes.web: Toggled task status via UI 7 -> done
+[2026-02-02 11:54:16,628] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:16] "[32mPOST /tasks/7/toggle HTTP/1.1[0m" 302 -
+[2026-02-02 11:54:16,636] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 11:54:16,637] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:16] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 11:54:16,697] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:54:16,698] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:16] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:54:17,627] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 11:54:17,627] INFO storage.task_repository: Repo updated task 7
+[2026-02-02 11:54:17,627] INFO routes.web: Toggled task status via UI 7 -> todo
+[2026-02-02 11:54:17,628] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:17] "[32mPOST /tasks/7/toggle HTTP/1.1[0m" 302 -
+[2026-02-02 11:54:17,637] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 11:54:17,639] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:17] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 11:54:17,702] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:54:17,703] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:17] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:54:19,564] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 11:54:19,564] INFO storage.task_repository: Repo updated task 7
+[2026-02-02 11:54:19,564] INFO routes.web: Toggled task status via UI 7 -> done
+[2026-02-02 11:54:19,565] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:19] "[32mPOST /tasks/7/toggle HTTP/1.1[0m" 302 -
+[2026-02-02 11:54:19,568] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 11:54:19,569] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:19] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 11:54:19,645] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:54:19,645] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:19] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:54:20,533] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 11:54:20,533] INFO storage.task_repository: Repo updated task 7
+[2026-02-02 11:54:20,533] INFO routes.web: Toggled task status via UI 7 -> todo
+[2026-02-02 11:54:20,534] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:20] "[32mPOST /tasks/7/toggle HTTP/1.1[0m" 302 -
+[2026-02-02 11:54:20,547] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 11:54:20,548] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:20] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 11:54:20,622] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:54:20,623] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:20] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:54:21,004] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 11:54:21,004] INFO storage.task_repository: Repo updated task 7
+[2026-02-02 11:54:21,004] INFO routes.web: Toggled task status via UI 7 -> done
+[2026-02-02 11:54:21,005] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:21] "[32mPOST /tasks/7/toggle HTTP/1.1[0m" 302 -
+[2026-02-02 11:54:21,008] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 11:54:21,009] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:21] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 11:54:21,064] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:54:21,064] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:21] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:54:21,470] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 11:54:21,471] INFO storage.task_repository: Repo updated task 7
+[2026-02-02 11:54:21,471] INFO routes.web: Toggled task status via UI 7 -> todo
+[2026-02-02 11:54:21,472] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:21] "[32mPOST /tasks/7/toggle HTTP/1.1[0m" 302 -
+[2026-02-02 11:54:21,479] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 11:54:21,480] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:21] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 11:54:21,549] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:54:21,550] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:21] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:54:22,126] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 11:54:22,126] INFO storage.task_repository: Repo updated task 7
+[2026-02-02 11:54:22,126] INFO routes.web: Toggled task status via UI 7 -> done
+[2026-02-02 11:54:22,127] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:22] "[32mPOST /tasks/7/toggle HTTP/1.1[0m" 302 -
+[2026-02-02 11:54:22,133] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 11:54:22,134] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:22] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 11:54:22,197] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:54:22,198] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:22] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:54:27,185] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:54:27,185] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:27] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:54:28,682] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 11:54:28,682] INFO storage.task_repository: Repo updated task 7
+[2026-02-02 11:54:28,682] INFO routes.web: Toggled task status via UI 7 -> todo
+[2026-02-02 11:54:28,683] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:28] "[32mPOST /tasks/7/toggle HTTP/1.1[0m" 302 -
+[2026-02-02 11:54:28,688] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 11:54:28,689] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:28] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 11:54:28,766] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:54:28,766] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:28] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:54:31,922] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 11:54:31,922] INFO storage.task_repository: Repo updated task 7
+[2026-02-02 11:54:31,922] INFO routes.web: Toggled task status via UI 7 -> done
+[2026-02-02 11:54:31,923] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:31] "[32mPOST /tasks/7/toggle HTTP/1.1[0m" 302 -
+[2026-02-02 11:54:31,930] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 11:54:31,930] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:31] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 11:54:31,992] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:54:31,992] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:31] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:54:34,451] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 11:54:34,451] INFO storage.task_repository: Repo updated task 7
+[2026-02-02 11:54:34,452] INFO routes.web: Toggled task status via UI 7 -> todo
+[2026-02-02 11:54:34,452] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:34] "[32mPOST /tasks/7/toggle HTTP/1.1[0m" 302 -
+[2026-02-02 11:54:34,457] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 11:54:34,458] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:34] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 11:54:34,538] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:54:34,539] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:34] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:54:35,220] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 11:54:35,220] INFO storage.task_repository: Repo updated task 7
+[2026-02-02 11:54:35,220] INFO routes.web: Toggled task status via UI 7 -> done
+[2026-02-02 11:54:35,221] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:35] "[32mPOST /tasks/7/toggle HTTP/1.1[0m" 302 -
+[2026-02-02 11:54:35,227] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 11:54:35,230] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:35] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 11:54:35,288] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:54:35,289] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:35] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:54:35,930] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 11:54:35,931] INFO storage.task_repository: Repo updated task 7
+[2026-02-02 11:54:35,931] INFO routes.web: Toggled task status via UI 7 -> todo
+[2026-02-02 11:54:35,931] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:35] "[32mPOST /tasks/7/toggle HTTP/1.1[0m" 302 -
+[2026-02-02 11:54:35,936] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 11:54:35,937] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:35] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 11:54:35,995] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:54:35,995] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:35] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:54:36,993] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 11:54:36,993] INFO storage.task_repository: Repo updated task 7
+[2026-02-02 11:54:36,994] INFO routes.web: Toggled task status via UI 7 -> done
+[2026-02-02 11:54:36,994] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:36] "[32mPOST /tasks/7/toggle HTTP/1.1[0m" 302 -
+[2026-02-02 11:54:37,002] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 11:54:37,003] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:37] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 11:54:37,065] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:54:37,066] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:37] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:54:37,717] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 11:54:37,718] INFO storage.task_repository: Repo updated task 7
+[2026-02-02 11:54:37,718] INFO routes.web: Toggled task status via UI 7 -> todo
+[2026-02-02 11:54:37,718] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:37] "[32mPOST /tasks/7/toggle HTTP/1.1[0m" 302 -
+[2026-02-02 11:54:37,721] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 11:54:37,722] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:37] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 11:54:37,779] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:54:37,781] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:37] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:54:40,044] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 11:54:40,044] INFO storage.task_repository: Repo updated task 7
+[2026-02-02 11:54:40,045] INFO routes.web: Toggled task status via UI 7 -> done
+[2026-02-02 11:54:40,045] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:40] "[32mPOST /tasks/7/toggle HTTP/1.1[0m" 302 -
+[2026-02-02 11:54:40,050] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 11:54:40,051] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:40] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 11:54:40,121] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:54:40,123] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:40] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:54:42,628] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 11:54:42,628] INFO storage.task_repository: Repo updated task 7
+[2026-02-02 11:54:42,628] INFO routes.web: Toggled task status via UI 7 -> todo
+[2026-02-02 11:54:42,628] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:42] "[32mPOST /tasks/7/toggle HTTP/1.1[0m" 302 -
+[2026-02-02 11:54:42,632] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 11:54:42,632] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:42] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 11:54:42,679] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:54:42,680] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:42] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:54:47,678] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:54:47,678] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:47] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:54:52,678] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:54:52,678] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:52] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:54:52,978] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 11:54:52,978] INFO storage.task_repository: Repo updated task 6
+[2026-02-02 11:54:52,978] INFO routes.web: Toggled task status via UI 6 -> todo
+[2026-02-02 11:54:52,979] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:52] "[32mPOST /tasks/6/toggle HTTP/1.1[0m" 302 -
+[2026-02-02 11:54:52,985] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 11:54:52,985] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:52] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 11:54:53,041] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:54:53,042] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:53] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:54:53,636] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 11:54:53,636] INFO storage.task_repository: Repo updated task 5
+[2026-02-02 11:54:53,636] INFO routes.web: Toggled task status via UI 5 -> todo
+[2026-02-02 11:54:53,636] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:53] "[32mPOST /tasks/5/toggle HTTP/1.1[0m" 302 -
+[2026-02-02 11:54:53,640] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 11:54:53,641] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:53] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 11:54:53,706] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:54:53,710] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:53] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:54:54,785] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 11:54:54,785] INFO storage.task_repository: Repo updated task 7
+[2026-02-02 11:54:54,786] INFO routes.web: Toggled task status via UI 7 -> done
+[2026-02-02 11:54:54,786] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:54] "[32mPOST /tasks/7/toggle HTTP/1.1[0m" 302 -
+[2026-02-02 11:54:54,789] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 11:54:54,790] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:54] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 11:54:54,839] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:54:54,839] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:54] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:54:55,689] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 11:54:55,689] INFO storage.task_repository: Repo updated task 6
+[2026-02-02 11:54:55,690] INFO routes.web: Toggled task status via UI 6 -> done
+[2026-02-02 11:54:55,690] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:55] "[32mPOST /tasks/6/toggle HTTP/1.1[0m" 302 -
+[2026-02-02 11:54:55,695] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 11:54:55,696] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:55] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 11:54:55,759] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:54:55,762] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:54:55] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:55:00,227] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 11:55:00,227] INFO storage.task_repository: Repo updated task 5
+[2026-02-02 11:55:00,228] INFO routes.web: Toggled task status via UI 5 -> done
+[2026-02-02 11:55:00,228] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:55:00] "[32mPOST /tasks/5/toggle HTTP/1.1[0m" 302 -
+[2026-02-02 11:55:00,233] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 11:55:00,234] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:55:00] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 11:55:00,290] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:55:00,291] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:55:00] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:55:02,874] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 11:55:02,874] INFO storage.task_repository: Repo updated task 3
+[2026-02-02 11:55:02,874] INFO routes.web: Toggled task status via UI 3 -> todo
+[2026-02-02 11:55:02,874] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:55:02] "[32mPOST /tasks/3/toggle HTTP/1.1[0m" 302 -
+[2026-02-02 11:55:02,878] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 11:55:02,878] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:55:02] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 11:55:02,926] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:55:02,927] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:55:02] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:55:07,925] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:55:07,926] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:55:07] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:55:12,926] INFO routes.api: Listed tasks count=6
+[2026-02-02 11:55:12,927] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:55:12] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 11:55:17,109] INFO routes.api: Listed tasks count=1
+[2026-02-02 11:55:17,110] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:55:17] "GET /api/tasks?status=todo HTTP/1.1" 200 -
+[2026-02-02 11:55:17,129] INFO routes.web: Rendered tasks page count=1
+[2026-02-02 11:55:17,131] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:55:17] "GET /tasks?status=todo HTTP/1.1" 200 -
+[2026-02-02 11:55:17,192] INFO routes.api: Listed tasks count=1
+[2026-02-02 11:55:17,193] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:55:17] "GET /api/tasks?status=todo HTTP/1.1" 200 -
+[2026-02-02 11:55:18,543] INFO routes.api: Listed tasks count=0
+[2026-02-02 11:55:18,546] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:55:18] "GET /api/tasks?status=in_progress HTTP/1.1" 200 -
+[2026-02-02 11:55:18,570] INFO routes.web: Rendered tasks page count=0
+[2026-02-02 11:55:18,572] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:55:18] "GET /tasks?status=in_progress HTTP/1.1" 200 -
+[2026-02-02 11:55:18,639] INFO routes.api: Listed tasks count=0
+[2026-02-02 11:55:18,639] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:55:18] "GET /api/tasks?status=in_progress HTTP/1.1" 200 -
+[2026-02-02 11:55:22,325] INFO routes.api: Listed tasks count=5
+[2026-02-02 11:55:22,328] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:55:22] "GET /api/tasks?status=done HTTP/1.1" 200 -
+[2026-02-02 11:55:22,343] INFO routes.web: Rendered tasks page count=5
+[2026-02-02 11:55:22,344] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:55:22] "GET /tasks?status=done HTTP/1.1" 200 -
+[2026-02-02 11:55:22,403] INFO routes.api: Listed tasks count=5
+[2026-02-02 11:55:22,403] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:55:22] "GET /api/tasks?status=done HTTP/1.1" 200 -
+[2026-02-02 11:55:23,879] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 11:55:23] "GET / HTTP/1.1" 200 -
+[2026-02-02 12:28:09,688] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 12:28:09,689] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:28:09] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 12:28:09,743] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:28:09,744] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:28:09] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:28:14,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:28:14,733] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:28:14] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:28:19,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:28:19,733] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:28:19] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:28:24,733] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:28:24,734] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:28:24] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:28:29,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:28:29,733] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:28:29] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:28:34,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:28:34,733] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:28:34] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:28:39,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:28:39,733] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:28:39] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:28:44,733] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:28:44,734] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:28:44] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:28:49,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:28:49,732] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:28:49] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:28:54,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:28:54,733] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:28:54] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:28:59,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:28:59,733] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:28:59] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:29:04,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:29:04,733] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:29:04] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:29:09,733] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:29:09,733] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:29:09] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:29:14,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:29:14,733] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:29:14] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:29:19,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:29:19,733] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:29:19] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:29:24,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:29:24,733] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:29:24] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:29:29,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:29:29,733] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:29:29] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:29:34,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:29:34,733] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:29:34] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:29:39,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:29:39,733] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:29:39] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:29:44,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:29:44,733] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:29:44] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:29:49,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:29:49,733] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:29:49] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:29:54,730] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:29:54,731] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:29:54] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:29:59,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:29:59,733] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:29:59] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:30:04,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:30:04,733] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:30:04] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:30:09,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:30:09,733] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:30:09] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:30:14,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:30:14,732] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:30:14] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:30:19,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:30:19,733] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:30:19] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:30:24,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:30:24,732] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:30:24] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:30:29,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:30:29,733] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:30:29] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:30:34,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:30:34,733] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:30:34] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:30:39,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:30:39,732] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:30:39] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:30:44,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:30:44,732] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:30:44] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:30:49,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:30:49,732] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:30:49] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:30:54,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:30:54,733] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:30:54] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:30:59,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:30:59,733] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:30:59] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:31:04,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:31:04,732] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:31:04] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:31:09,733] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:31:09,733] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:31:09] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:31:14,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:31:14,732] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:31:14] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:31:19,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:31:19,732] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:31:19] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:31:24,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:31:24,733] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:31:24] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:31:29,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:31:29,732] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:31:29] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:31:34,733] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:31:34,733] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:31:34] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:31:39,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:31:39,733] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:31:39] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:31:44,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:31:44,733] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:31:44] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:31:49,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:31:49,732] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:31:49] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:31:54,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:31:54,733] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:31:54] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:31:59,733] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:31:59,733] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:31:59] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:32:04,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:32:04,733] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:32:04] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:32:09,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:32:09,733] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:32:09] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:32:14,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:32:14,733] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:32:14] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:32:19,733] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:32:19,734] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:32:19] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:32:24,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:32:24,733] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:32:24] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:32:29,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:32:29,733] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:32:29] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:32:34,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:32:34,733] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:32:34] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:32:39,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:32:39,732] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:32:39] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:32:44,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:32:44,733] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:32:44] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:32:49,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:32:49,733] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:32:49] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:32:54,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:32:54,733] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:32:54] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:32:59,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:32:59,733] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:32:59] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:33:04,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:33:04,733] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:33:04] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:33:09,733] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:33:09,733] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:33:09] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:33:14,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:33:14,732] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:33:14] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:33:19,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:33:19,732] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:33:19] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:33:24,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:33:24,732] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:33:24] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:33:29,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:33:29,733] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:33:29] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:33:34,733] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:33:34,733] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:33:34] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:33:39,733] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:33:39,734] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:33:39] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:33:44,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:33:44,732] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:33:44] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:33:49,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:33:49,733] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:33:49] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:33:54,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:33:54,732] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:33:54] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:33:59,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:33:59,733] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:33:59] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:34:04,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:34:04,733] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:34:04] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:34:09,733] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:34:09,733] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:34:09] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:34:14,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:34:14,733] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:34:14] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:34:19,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:34:19,732] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:34:19] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:34:24,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:34:24,732] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:34:24] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:34:29,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:34:29,733] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:34:29] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:34:34,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:34:34,733] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:34:34] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:34:39,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:34:39,733] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:34:39] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:34:44,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:34:44,732] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:34:44] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:34:49,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:34:49,733] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:34:49] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:34:54,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:34:54,733] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:34:54] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:34:59,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:34:59,733] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:34:59] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:35:04,733] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:35:04,733] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:35:04] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:35:09,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:35:09,733] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:35:09] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:35:14,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:35:14,732] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:35:14] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:35:19,733] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:35:19,733] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:35:19] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:35:24,731] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:35:24,732] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:35:24] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:35:29,729] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:35:29,730] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:35:29] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:35:34,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:35:34,733] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:35:34] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:35:39,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:35:39,733] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:35:39] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:35:44,732] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:35:44,732] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:35:44] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:35:48,525] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 12:35:48,526] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:35:48] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 12:35:48,576] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:35:48,580] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:35:48] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:35:50,411] INFO routes.api: Listed tasks count=1
+[2026-02-02 12:35:50,411] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:35:50] "GET /api/tasks?status=todo HTTP/1.1" 200 -
+[2026-02-02 12:35:50,421] INFO routes.web: Rendered tasks page count=1
+[2026-02-02 12:35:50,422] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:35:50] "GET /tasks?status=todo HTTP/1.1" 200 -
+[2026-02-02 12:35:50,483] INFO routes.api: Listed tasks count=1
+[2026-02-02 12:35:50,484] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:35:50] "GET /api/tasks?status=todo HTTP/1.1" 200 -
+[2026-02-02 12:35:52,445] INFO routes.api: Listed tasks count=0
+[2026-02-02 12:35:52,446] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:35:52] "GET /api/tasks?status=in_progress HTTP/1.1" 200 -
+[2026-02-02 12:35:52,463] INFO routes.web: Rendered tasks page count=0
+[2026-02-02 12:35:52,464] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:35:52] "GET /tasks?status=in_progress HTTP/1.1" 200 -
+[2026-02-02 12:35:52,533] INFO routes.api: Listed tasks count=0
+[2026-02-02 12:35:52,534] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:35:52] "GET /api/tasks?status=in_progress HTTP/1.1" 200 -
+[2026-02-02 12:35:54,239] INFO routes.api: Listed tasks count=5
+[2026-02-02 12:35:54,240] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:35:54] "GET /api/tasks?status=done HTTP/1.1" 200 -
+[2026-02-02 12:35:54,263] INFO routes.web: Rendered tasks page count=5
+[2026-02-02 12:35:54,264] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:35:54] "GET /tasks?status=done HTTP/1.1" 200 -
+[2026-02-02 12:35:54,322] INFO routes.api: Listed tasks count=5
+[2026-02-02 12:35:54,324] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:35:54] "GET /api/tasks?status=done HTTP/1.1" 200 -
+[2026-02-02 12:35:59,320] INFO routes.api: Listed tasks count=5
+[2026-02-02 12:35:59,322] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:35:59] "GET /api/tasks?status=done HTTP/1.1" 200 -
+[2026-02-02 12:36:00,254] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:36:00] "GET / HTTP/1.1" 200 -
+[2026-02-02 12:36:59,991] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 12:36:59,992] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:36:59] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 12:37:00,034] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:37:00,035] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:37:00] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:37:01,758] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 12:37:01,758] INFO storage.task_repository: Repo updated task 3
+[2026-02-02 12:37:01,758] INFO routes.web: Toggled task status via UI 3 -> done
+[2026-02-02 12:37:01,759] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:37:01] "[32mPOST /tasks/3/toggle HTTP/1.1[0m" 302 -
+[2026-02-02 12:37:01,763] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 12:37:01,764] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:37:01] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 12:37:01,825] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:37:01,826] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:37:01] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:37:03,139] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 12:37:03,139] INFO storage.task_repository: Repo updated task 3
+[2026-02-02 12:37:03,139] INFO routes.web: Toggled task status via UI 3 -> todo
+[2026-02-02 12:37:03,140] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:37:03] "[32mPOST /tasks/3/toggle HTTP/1.1[0m" 302 -
+[2026-02-02 12:37:03,145] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 12:37:03,146] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:37:03] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 12:37:03,211] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:37:03,212] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:37:03] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:37:04,531] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 12:37:04,531] INFO storage.task_repository: Repo updated task 3
+[2026-02-02 12:37:04,531] INFO routes.web: Toggled task status via UI 3 -> done
+[2026-02-02 12:37:04,531] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:37:04] "[32mPOST /tasks/3/toggle HTTP/1.1[0m" 302 -
+[2026-02-02 12:37:04,535] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 12:37:04,536] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:37:04] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 12:37:04,599] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:37:04,601] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:37:04] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:37:09,591] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:37:09,591] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:37:09] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:37:14,590] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:37:14,591] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:37:14] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:37:19,594] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:37:19,594] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:37:19] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:37:24,593] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:37:24,594] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:37:24] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:37:29,592] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:37:29,593] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:37:29] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:37:33,588] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 12:37:33,588] INFO storage.task_repository: Repo updated task 7
+[2026-02-02 12:37:33,589] INFO routes.web: Toggled task status via UI 7 -> todo
+[2026-02-02 12:37:33,589] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:37:33] "[32mPOST /tasks/7/toggle HTTP/1.1[0m" 302 -
+[2026-02-02 12:37:33,593] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 12:37:33,594] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:37:33] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 12:37:33,663] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:37:33,663] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:37:33] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:37:38,647] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:37:38,647] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:37:38] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:37:43,647] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:37:43,648] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:37:43] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:37:48,647] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:37:48,648] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:37:48] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:37:53,646] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:37:53,647] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:37:53] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:37:58,647] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:37:58,647] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:37:58] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:38:03,647] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:38:03,648] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:38:03] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:38:08,646] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:38:08,647] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:38:08] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:38:13,646] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:38:13,647] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:38:13] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:38:18,647] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:38:18,647] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:38:18] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:38:23,646] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:38:23,647] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:38:23] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:38:28,647] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:38:28,647] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:38:28] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:38:33,646] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:38:33,647] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:38:33] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:38:38,646] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:38:38,647] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:38:38] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:38:43,646] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:38:43,647] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:38:43] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:38:48,647] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:38:48,647] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:38:48] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:38:53,647] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:38:53,647] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:38:53] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:38:58,646] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:38:58,647] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:38:58] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:39:03,647] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:39:03,647] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:39:03] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:39:08,646] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:39:08,647] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:39:08] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:39:13,646] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:39:13,647] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:39:13] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:39:18,646] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:39:18,647] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:39:18] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:39:23,647] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:39:23,647] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:39:23] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:39:28,646] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:39:28,647] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:39:28] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:39:33,646] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:39:33,647] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:39:33] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:39:38,647] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:39:38,648] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:39:38] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:39:43,646] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:39:43,647] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:39:43] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:39:48,646] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:39:48,647] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:39:48] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:39:53,646] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:39:53,647] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:39:53] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:39:58,644] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:39:58,644] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:39:58] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:40:03,647] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:40:03,648] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:40:03] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:40:08,644] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:40:08,645] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:40:08] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:40:13,646] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:40:13,647] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:40:13] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:40:18,647] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:40:18,647] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:40:18] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:40:23,647] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:40:23,647] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:40:23] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:40:28,646] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:40:28,647] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:40:28] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:40:33,646] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:40:33,647] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:40:33] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:40:38,648] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:40:38,648] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:40:38] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:40:43,647] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:40:43,647] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:40:43] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:40:48,646] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:40:48,647] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:40:48] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:40:53,646] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:40:53,647] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:40:53] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:40:58,646] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:40:58,647] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:40:58] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:41:03,646] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:41:03,647] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:41:03] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:41:08,647] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:41:08,648] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:41:08] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:41:13,646] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:41:13,647] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:41:13] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:41:18,647] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:41:18,647] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:41:18] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:41:23,647] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:41:23,647] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:41:23] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:41:28,647] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:41:28,647] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:41:28] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:41:33,646] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:41:33,647] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:41:33] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:41:38,647] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:41:38,647] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:41:38] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:41:43,646] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:41:43,647] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:41:43] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:41:48,646] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:41:48,647] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:41:48] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:41:53,647] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:41:53,647] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:41:53] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:41:58,646] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:41:58,647] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:41:58] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:42:03,647] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:42:03,647] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:42:03] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:42:08,646] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:42:08,647] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:42:08] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:42:13,646] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:42:13,647] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:42:13] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:42:18,647] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:42:18,647] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:42:18] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:42:23,648] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:42:23,648] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:42:23] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:42:28,649] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:42:28,649] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:42:28] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:42:33,646] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:42:33,647] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:42:33] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:42:39,498] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:42:39,499] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:42:39] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:42:44,498] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:42:44,499] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:42:44] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:42:49,499] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:42:49,499] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:42:49] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:42:54,498] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:42:54,499] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:42:54] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:42:59,500] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:42:59,500] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:42:59] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:43:04,499] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:43:04,499] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:43:04] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:43:09,499] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:43:09,499] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:43:09] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:43:14,498] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:43:14,499] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:43:14] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:43:19,499] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:43:19,499] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:43:19] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:43:24,499] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:43:24,499] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:43:24] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:43:29,499] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:43:29,499] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:43:29] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:43:34,499] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:43:34,500] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:43:34] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:43:46,504] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:43:46,505] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:43:46] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:44:05,677] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:44:05,678] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:44:05] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:44:08,650] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:44:08,650] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:44:08] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:44:13,646] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:44:13,646] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:44:13] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:44:17,592] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 12:44:17,605] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:44:17] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 12:44:17,683] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:44:17,684] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:44:17] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:44:19,550] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 12:44:19,551] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:44:19] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 12:44:19,631] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:44:19,635] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:44:19] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:44:21,403] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 12:44:21,403] INFO storage.task_repository: Repo updated task 6
+[2026-02-02 12:44:21,404] INFO routes.web: Toggled task status via UI 6 -> todo
+[2026-02-02 12:44:21,405] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:44:21] "[32mPOST /tasks/6/toggle HTTP/1.1[0m" 302 -
+[2026-02-02 12:44:21,412] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 12:44:21,413] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:44:21] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 12:44:21,419] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:44:21,420] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:44:21] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:44:22,966] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 12:44:22,966] INFO storage.task_repository: Repo updated task 6
+[2026-02-02 12:44:22,966] INFO routes.web: Toggled task status via UI 6 -> done
+[2026-02-02 12:44:22,966] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:44:22] "[32mPOST /tasks/6/toggle HTTP/1.1[0m" 302 -
+[2026-02-02 12:44:22,970] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 12:44:22,970] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:44:22] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 12:44:22,977] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:44:22,978] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:44:22] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:44:23,965] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 12:44:23,966] INFO storage.task_repository: Repo updated task 5
+[2026-02-02 12:44:23,966] INFO routes.web: Toggled task status via UI 5 -> todo
+[2026-02-02 12:44:23,966] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:44:23] "[32mPOST /tasks/5/toggle HTTP/1.1[0m" 302 -
+[2026-02-02 12:44:23,969] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 12:44:23,970] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:44:23] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 12:44:23,978] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:44:23,979] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:44:23] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:44:24,614] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 12:44:24,614] INFO storage.task_repository: Repo updated task 5
+[2026-02-02 12:44:24,614] INFO routes.web: Toggled task status via UI 5 -> done
+[2026-02-02 12:44:24,614] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:44:24] "[32mPOST /tasks/5/toggle HTTP/1.1[0m" 302 -
+[2026-02-02 12:44:24,618] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 12:44:24,618] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:44:24] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 12:44:24,625] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:44:24,626] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:44:24] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:44:24,631] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:44:24,632] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:44:24] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:44:25,135] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 12:44:25,135] INFO storage.task_repository: Repo updated task 4
+[2026-02-02 12:44:25,135] INFO routes.web: Toggled task status via UI 4 -> todo
+[2026-02-02 12:44:25,135] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:44:25] "[32mPOST /tasks/4/toggle HTTP/1.1[0m" 302 -
+[2026-02-02 12:44:25,139] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 12:44:25,139] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:44:25] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 12:44:25,145] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:44:25,146] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:44:25] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:44:25,662] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 12:44:25,663] INFO storage.task_repository: Repo updated task 4
+[2026-02-02 12:44:25,663] INFO routes.web: Toggled task status via UI 4 -> done
+[2026-02-02 12:44:25,663] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:44:25] "[32mPOST /tasks/4/toggle HTTP/1.1[0m" 302 -
+[2026-02-02 12:44:25,667] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 12:44:25,667] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:44:25] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 12:44:25,673] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:44:25,674] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:44:25] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:44:26,686] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 12:44:26,686] INFO storage.task_repository: Repo updated task 4
+[2026-02-02 12:44:26,686] INFO routes.web: Toggled task status via UI 4 -> todo
+[2026-02-02 12:44:26,686] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:44:26] "[32mPOST /tasks/4/toggle HTTP/1.1[0m" 302 -
+[2026-02-02 12:44:26,689] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 12:44:26,690] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:44:26] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 12:44:26,695] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:44:26,695] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:44:26] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:44:27,829] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 12:44:27,829] INFO storage.task_repository: Repo updated task 4
+[2026-02-02 12:44:27,829] INFO routes.web: Toggled task status via UI 4 -> done
+[2026-02-02 12:44:27,830] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:44:27] "[32mPOST /tasks/4/toggle HTTP/1.1[0m" 302 -
+[2026-02-02 12:44:27,833] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 12:44:27,834] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:44:27] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 12:44:27,840] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:44:27,841] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:44:27] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:44:29,627] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:44:29,628] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:44:29] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:44:34,627] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:44:34,628] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:44:34] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:44:39,627] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:44:39,628] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:44:39] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:44:44,627] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:44:44,628] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:44:44] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:44:50,499] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:44:50,500] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:44:50] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:44:55,497] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:44:55,497] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:44:55] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:45:00,498] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:45:00,498] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:45:00] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:45:05,499] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:45:05,499] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:45:05] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:45:10,499] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:45:10,499] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:45:10] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:45:15,499] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:45:15,499] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:45:15] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:45:20,500] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:45:20,500] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:45:20] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:45:25,499] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:45:25,500] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:45:25] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:45:30,497] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:45:30,497] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:45:30] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:45:35,498] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:45:35,499] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:45:35] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:45:40,498] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:45:40,498] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:45:40] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:45:45,496] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:45:45,497] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:45:45] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:45:52,028] INFO werkzeug:  * Detected change in '/home/w3e39/Documents/Mini_Task_Manager_API/routes/web.py', reloading
+[2026-02-02 12:45:52,225] INFO werkzeug:  * Restarting with stat
+[2026-02-02 12:45:52,808] WARNING werkzeug:  * Debugger is active!
+[2026-02-02 12:45:52,814] INFO werkzeug:  * Debugger PIN: 108-235-414
+[2026-02-02 12:46:04,071] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:46:04,072] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:46:04] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:46:04,630] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:46:04,631] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:46:04] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:46:07,639] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 12:46:07,653] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:46:07] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 12:46:07,702] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:46:07,703] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:46:07] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:46:09,310] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 12:46:09,310] INFO storage.task_repository: Repo updated task 7
+[2026-02-02 12:46:09,310] INFO routes.web: Toggled task status via UI 7 -> in_progress
+[2026-02-02 12:46:09,311] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:46:09] "[32mPOST /tasks/7/toggle HTTP/1.1[0m" 302 -
+[2026-02-02 12:46:09,314] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 12:46:09,315] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:46:09] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 12:46:09,321] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:46:09,322] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:46:09] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:46:10,569] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 12:46:10,570] INFO storage.task_repository: Repo updated task 7
+[2026-02-02 12:46:10,570] INFO routes.web: Toggled task status via UI 7 -> done
+[2026-02-02 12:46:10,570] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:46:10] "[32mPOST /tasks/7/toggle HTTP/1.1[0m" 302 -
+[2026-02-02 12:46:10,575] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 12:46:10,576] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:46:10] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 12:46:10,583] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:46:10,584] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:46:10] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:46:11,775] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 12:46:11,775] INFO storage.task_repository: Repo updated task 7
+[2026-02-02 12:46:11,775] INFO routes.web: Toggled task status via UI 7 -> todo
+[2026-02-02 12:46:11,775] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:46:11] "[32mPOST /tasks/7/toggle HTTP/1.1[0m" 302 -
+[2026-02-02 12:46:11,779] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 12:46:11,779] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:46:11] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 12:46:11,786] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:46:11,786] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:46:11] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:46:12,702] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:46:12,703] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:46:12] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:46:13,352] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 12:46:13,352] INFO storage.task_repository: Repo updated task 7
+[2026-02-02 12:46:13,352] INFO routes.web: Toggled task status via UI 7 -> in_progress
+[2026-02-02 12:46:13,352] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:46:13] "[32mPOST /tasks/7/toggle HTTP/1.1[0m" 302 -
+[2026-02-02 12:46:13,356] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 12:46:13,357] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:46:13] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 12:46:13,362] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:46:13,363] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:46:13] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:46:16,448] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 12:46:16,448] INFO storage.task_repository: Repo updated task 7
+[2026-02-02 12:46:16,448] INFO routes.web: Toggled task status via UI 7 -> done
+[2026-02-02 12:46:16,448] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:46:16] "[32mPOST /tasks/7/toggle HTTP/1.1[0m" 302 -
+[2026-02-02 12:46:16,452] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 12:46:16,452] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:46:16] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 12:46:16,459] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:46:16,459] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:46:16] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:46:17,703] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:46:17,703] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:46:17] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:46:18,287] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 12:46:18,287] INFO storage.task_repository: Repo updated task 7
+[2026-02-02 12:46:18,287] INFO routes.web: Toggled task status via UI 7 -> todo
+[2026-02-02 12:46:18,287] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:46:18] "[32mPOST /tasks/7/toggle HTTP/1.1[0m" 302 -
+[2026-02-02 12:46:18,291] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 12:46:18,291] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:46:18] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 12:46:18,297] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:46:18,298] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:46:18] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:46:19,479] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 12:46:19,479] INFO storage.task_repository: Repo updated task 6
+[2026-02-02 12:46:19,480] INFO routes.web: Toggled task status via UI 6 -> todo
+[2026-02-02 12:46:19,480] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:46:19] "[32mPOST /tasks/6/toggle HTTP/1.1[0m" 302 -
+[2026-02-02 12:46:19,484] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 12:46:19,484] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:46:19] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 12:46:19,490] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:46:19,491] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:46:19] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:46:20,182] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 12:46:20,182] INFO storage.task_repository: Repo updated task 5
+[2026-02-02 12:46:20,182] INFO routes.web: Toggled task status via UI 5 -> todo
+[2026-02-02 12:46:20,182] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:46:20] "[32mPOST /tasks/5/toggle HTTP/1.1[0m" 302 -
+[2026-02-02 12:46:20,185] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 12:46:20,186] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:46:20] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 12:46:20,191] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:46:20,192] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:46:20] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:46:21,383] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 12:46:21,383] INFO storage.task_repository: Repo updated task 4
+[2026-02-02 12:46:21,383] INFO routes.web: Toggled task status via UI 4 -> todo
+[2026-02-02 12:46:21,384] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:46:21] "[32mPOST /tasks/4/toggle HTTP/1.1[0m" 302 -
+[2026-02-02 12:46:21,387] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 12:46:21,388] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:46:21] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 12:46:21,394] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:46:21,395] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:46:21] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:46:21,951] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 12:46:21,951] INFO storage.task_repository: Repo updated task 3
+[2026-02-02 12:46:21,951] INFO routes.web: Toggled task status via UI 3 -> todo
+[2026-02-02 12:46:21,952] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:46:21] "[32mPOST /tasks/3/toggle HTTP/1.1[0m" 302 -
+[2026-02-02 12:46:21,955] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 12:46:21,956] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:46:21] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 12:46:21,961] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:46:21,962] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:46:21] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:46:22,702] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:46:22,703] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:46:22] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:46:24,183] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 12:46:24,184] INFO storage.task_repository: Repo updated task 2
+[2026-02-02 12:46:24,184] INFO routes.web: Toggled task status via UI 2 -> todo
+[2026-02-02 12:46:24,184] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:46:24] "[32mPOST /tasks/2/toggle HTTP/1.1[0m" 302 -
+[2026-02-02 12:46:24,187] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 12:46:24,188] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:46:24] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 12:46:24,194] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:46:24,195] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:46:24] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:46:25,952] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 12:46:25,952] INFO storage.task_repository: Repo updated task 7
+[2026-02-02 12:46:25,952] INFO routes.web: Toggled task status via UI 7 -> in_progress
+[2026-02-02 12:46:25,953] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:46:25] "[32mPOST /tasks/7/toggle HTTP/1.1[0m" 302 -
+[2026-02-02 12:46:25,956] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 12:46:25,957] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:46:25] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 12:46:25,963] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:46:25,963] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:46:25] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:46:27,703] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:46:27,703] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:46:27] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:46:30,345] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 12:46:30,345] INFO storage.task_repository: Repo updated task 7
+[2026-02-02 12:46:30,345] INFO routes.web: Toggled task status via UI 7 -> done
+[2026-02-02 12:46:30,346] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:46:30] "[32mPOST /tasks/7/toggle HTTP/1.1[0m" 302 -
+[2026-02-02 12:46:30,349] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 12:46:30,350] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:46:30] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 12:46:30,357] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:46:30,358] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:46:30] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:46:32,393] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 12:46:32,393] INFO storage.task_repository: Repo updated task 7
+[2026-02-02 12:46:32,393] INFO routes.web: Toggled task status via UI 7 -> todo
+[2026-02-02 12:46:32,394] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:46:32] "[32mPOST /tasks/7/toggle HTTP/1.1[0m" 302 -
+[2026-02-02 12:46:32,397] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 12:46:32,397] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:46:32] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 12:46:32,403] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:46:32,404] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:46:32] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:46:32,702] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:46:32,703] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:46:32] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:46:34,296] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 12:46:34,296] INFO storage.task_repository: Repo updated task 7
+[2026-02-02 12:46:34,297] INFO routes.web: Toggled task status via UI 7 -> in_progress
+[2026-02-02 12:46:34,297] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:46:34] "[32mPOST /tasks/7/toggle HTTP/1.1[0m" 302 -
+[2026-02-02 12:46:34,300] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 12:46:34,301] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:46:34] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 12:46:34,307] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:46:34,308] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:46:34] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:46:34,960] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 12:46:34,960] INFO storage.task_repository: Repo updated task 7
+[2026-02-02 12:46:34,960] INFO routes.web: Toggled task status via UI 7 -> done
+[2026-02-02 12:46:34,960] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:46:34] "[32mPOST /tasks/7/toggle HTTP/1.1[0m" 302 -
+[2026-02-02 12:46:34,964] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 12:46:34,965] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:46:34] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 12:46:34,971] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:46:34,972] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:46:34] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:46:35,423] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 12:46:35,423] INFO storage.task_repository: Repo updated task 7
+[2026-02-02 12:46:35,423] INFO routes.web: Toggled task status via UI 7 -> todo
+[2026-02-02 12:46:35,424] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:46:35] "[32mPOST /tasks/7/toggle HTTP/1.1[0m" 302 -
+[2026-02-02 12:46:35,427] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 12:46:35,428] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:46:35] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 12:46:35,433] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:46:35,434] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:46:35] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:46:36,390] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 12:46:36,390] INFO storage.task_repository: Repo updated task 7
+[2026-02-02 12:46:36,390] INFO routes.web: Toggled task status via UI 7 -> in_progress
+[2026-02-02 12:46:36,391] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:46:36] "[32mPOST /tasks/7/toggle HTTP/1.1[0m" 302 -
+[2026-02-02 12:46:36,394] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 12:46:36,395] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:46:36] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 12:46:36,401] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:46:36,401] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:46:36] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:46:37,703] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:46:37,703] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:46:37] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:46:42,703] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:46:42,704] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:46:42] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:46:47,704] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:46:47,704] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:46:47] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:46:52,701] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:46:52,702] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:46:52] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:46:57,703] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:46:57,704] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:46:57] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:47:02,705] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:47:02,705] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:47:02] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:47:07,704] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:47:07,704] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:47:07] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:47:12,703] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:47:12,703] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:47:12] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:47:17,704] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:47:17,705] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:47:17] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:47:22,703] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:47:22,704] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:47:22] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:47:27,703] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:47:27,703] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:47:27] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:47:32,703] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:47:32,703] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:47:32] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:47:37,703] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:47:37,704] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:47:37] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:47:40,451] INFO routes.api: Listed tasks count=5
+[2026-02-02 12:47:40,455] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:47:40] "GET /api/tasks?status=todo HTTP/1.1" 200 -
+[2026-02-02 12:47:40,473] INFO routes.web: Rendered tasks page count=5
+[2026-02-02 12:47:40,477] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:47:40] "GET /tasks?status=todo HTTP/1.1" 200 -
+[2026-02-02 12:47:40,550] INFO routes.api: Listed tasks count=5
+[2026-02-02 12:47:40,552] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:47:40] "GET /api/tasks?status=todo HTTP/1.1" 200 -
+[2026-02-02 12:47:42,585] INFO routes.api: Listed tasks count=1
+[2026-02-02 12:47:42,585] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:47:42] "GET /api/tasks?status=in_progress HTTP/1.1" 200 -
+[2026-02-02 12:47:42,607] INFO routes.web: Rendered tasks page count=1
+[2026-02-02 12:47:42,609] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:47:42] "GET /tasks?status=in_progress HTTP/1.1" 200 -
+[2026-02-02 12:47:42,686] INFO routes.api: Listed tasks count=1
+[2026-02-02 12:47:42,689] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:47:42] "GET /api/tasks?status=in_progress HTTP/1.1" 200 -
+[2026-02-02 12:47:44,724] INFO routes.api: Listed tasks count=0
+[2026-02-02 12:47:44,726] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:47:44] "GET /api/tasks?status=done HTTP/1.1" 200 -
+[2026-02-02 12:47:44,740] INFO routes.web: Rendered tasks page count=0
+[2026-02-02 12:47:44,758] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:47:44] "GET /tasks?status=done HTTP/1.1" 200 -
+[2026-02-02 12:47:44,992] INFO routes.api: Listed tasks count=0
+[2026-02-02 12:47:44,993] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:47:44] "GET /api/tasks?status=done HTTP/1.1" 200 -
+[2026-02-02 12:47:47,833] INFO routes.web: Rendered tasks page count=0
+[2026-02-02 12:47:47,834] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:47:47] "GET /tasks?status=done HTTP/1.1" 200 -
+[2026-02-02 12:47:47,882] INFO routes.api: Listed tasks count=0
+[2026-02-02 12:47:47,888] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:47:47] "GET /api/tasks?status=done HTTP/1.1" 200 -
+[2026-02-02 12:47:50,015] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:47:50,016] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:47:50] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:47:50,029] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 12:47:50,029] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:47:50] "GET /tasks?status= HTTP/1.1" 200 -
+[2026-02-02 12:47:50,090] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:47:50,092] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:47:50] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:47:55,088] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:47:55,089] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:47:55] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:47:58,673] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 12:47:58,673] INFO storage.task_repository: Repo updated task 7
+[2026-02-02 12:47:58,673] INFO routes.web: Toggled task status via UI 7 -> done
+[2026-02-02 12:47:58,674] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:47:58] "[32mPOST /tasks/7/toggle HTTP/1.1[0m" 302 -
+[2026-02-02 12:47:58,677] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 12:47:58,678] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:47:58] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 12:47:58,684] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:47:58,684] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:47:58] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:48:00,089] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:48:00,089] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:48:00] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:48:00,480] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 12:48:00,480] INFO storage.task_repository: Repo updated task 7
+[2026-02-02 12:48:00,480] INFO routes.web: Toggled task status via UI 7 -> todo
+[2026-02-02 12:48:00,480] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:48:00] "[32mPOST /tasks/7/toggle HTTP/1.1[0m" 302 -
+[2026-02-02 12:48:00,484] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 12:48:00,484] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:48:00] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 12:48:00,490] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:48:00,491] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:48:00] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:48:02,083] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 12:48:02,083] INFO storage.task_repository: Repo updated task 7
+[2026-02-02 12:48:02,083] INFO routes.web: Toggled task status via UI 7 -> in_progress
+[2026-02-02 12:48:02,084] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:48:02] "[32mPOST /tasks/7/toggle HTTP/1.1[0m" 302 -
+[2026-02-02 12:48:02,087] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 12:48:02,087] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:48:02] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 12:48:02,092] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:48:02,093] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:48:02] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:48:02,976] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 12:48:02,976] INFO storage.task_repository: Repo updated task 7
+[2026-02-02 12:48:02,976] INFO routes.web: Toggled task status via UI 7 -> done
+[2026-02-02 12:48:02,977] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:48:02] "[32mPOST /tasks/7/toggle HTTP/1.1[0m" 302 -
+[2026-02-02 12:48:02,981] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 12:48:02,983] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:48:02] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 12:48:02,989] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:48:02,990] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:48:02] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:48:05,089] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:48:05,089] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:48:05] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:48:06,234] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 12:48:06,234] INFO storage.task_repository: Repo updated task 7
+[2026-02-02 12:48:06,234] INFO routes.web: Toggled task status via UI 7 -> todo
+[2026-02-02 12:48:06,234] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:48:06] "[32mPOST /tasks/7/toggle HTTP/1.1[0m" 302 -
+[2026-02-02 12:48:06,238] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 12:48:06,238] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:48:06] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 12:48:06,245] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:48:06,247] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:48:06] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:48:07,755] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:48:07] "GET / HTTP/1.1" 200 -
+[2026-02-02 12:48:09,404] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 12:48:09,405] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:48:09] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 12:48:09,452] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:48:09,454] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:48:09] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:48:14,445] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:48:14,446] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:48:14] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:48:19,444] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:48:19,445] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:48:19] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:48:24,444] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:48:24,445] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:48:24] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:48:29,445] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:48:29,445] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:48:29] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:48:34,445] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:48:34,446] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:48:34] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:48:34,994] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 12:48:34,995] INFO storage.task_repository: Repo updated task 7
+[2026-02-02 12:48:34,995] INFO routes.web: Toggled task status via UI 7 -> in_progress
+[2026-02-02 12:48:34,995] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:48:34] "[32mPOST /tasks/7/toggle HTTP/1.1[0m" 302 -
+[2026-02-02 12:48:34,999] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 12:48:34,999] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:48:34] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 12:48:35,005] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:48:35,007] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:48:35] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:48:35,991] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 12:48:35,992] INFO storage.task_repository: Repo updated task 7
+[2026-02-02 12:48:35,992] INFO routes.web: Toggled task status via UI 7 -> done
+[2026-02-02 12:48:35,992] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:48:35] "[32mPOST /tasks/7/toggle HTTP/1.1[0m" 302 -
+[2026-02-02 12:48:35,996] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 12:48:35,996] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:48:35] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 12:48:36,002] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:48:36,003] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:48:36] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:48:37,042] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 12:48:37,042] INFO storage.task_repository: Repo updated task 7
+[2026-02-02 12:48:37,042] INFO routes.web: Toggled task status via UI 7 -> todo
+[2026-02-02 12:48:37,043] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:48:37] "[32mPOST /tasks/7/toggle HTTP/1.1[0m" 302 -
+[2026-02-02 12:48:37,046] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 12:48:37,047] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:48:37] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 12:48:37,053] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:48:37,054] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:48:37] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:48:39,445] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:48:39,445] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:48:39] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:48:44,444] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:48:44,445] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:48:44] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:48:49,444] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:48:49,445] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:48:49] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:48:54,443] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:48:54,443] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:48:54] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:48:58,011] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:48:58] "GET / HTTP/1.1" 200 -
+[2026-02-02 12:49:42,604] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 12:49:42,605] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:49:42] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 12:49:42,668] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:49:42,669] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:49:42] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:49:47,654] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:49:47,655] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:49:47] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:49:48,898] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:49:48] "GET / HTTP/1.1" 200 -
+[2026-02-02 12:49:57,948] INFO routes.web: Rendered tasks page count=6
+[2026-02-02 12:49:57,949] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:49:57] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 12:49:58,008] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:49:58,009] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:49:58] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 12:50:02,999] INFO routes.api: Listed tasks count=6
+[2026-02-02 12:50:03,000] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:50:03] "GET /api/tasks HTTP/1.1" 200 -

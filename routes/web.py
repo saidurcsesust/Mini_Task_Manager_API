@@ -62,7 +62,13 @@ def toggle_done(task_id: int):
     task = _repo().get(task_id)
     if not task:
         return redirect(url_for("web.tasks_page"))
-    next_status = "todo" if task.get("status") == "done" else "done"
+    current = task.get("status")
+    if current == "todo":
+        next_status = "in_progress"
+    elif current == "in_progress":
+        next_status = "done"
+    else:
+        next_status = "todo"
     _repo().update(task_id, {"status": next_status})
     logger.info("Toggled task status via UI %s -> %s", task_id, next_status)
     return redirect(url_for("web.tasks_page"))
