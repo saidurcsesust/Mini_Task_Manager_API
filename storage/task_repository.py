@@ -13,12 +13,16 @@ class TaskRepository:
         self.logger = logging.getLogger(__name__)
 
     def _task_to_dict(self, task: Task):
+        if isinstance(task.created_at, datetime):
+            created_at = task.created_at.strftime("%d-%m-%Y")
+        else:
+            created_at = task.created_at
         return {
             "id": task.id,
             "title": task.title,
             "description": task.description,
             "status": task.status,
-            "created_at": task.created_at.isoformat() if isinstance(task.created_at, datetime) else task.created_at,
+            "created_at": created_at,
             "due_date": task.due_date.isoformat() if isinstance(task.due_date, date) else task.due_date,
         }
 

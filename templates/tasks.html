@@ -23,36 +23,6 @@
   <body>
     <h1>Tasks</h1>
 
-    <div class="panel">
-      <form method="post" action="/tasks">
-        <div class="grid">
-          <div>
-            <label for="title">Title</label>
-            <input type="text" id="title" name="title" placeholder="Task title" required />
-          </div>
-          <div>
-            <label for="description">Description</label>
-            <input type="text" id="description" name="description" placeholder="Optional details" />
-          </div>
-          <div>
-            <label for="due_date">Due date</label>
-            <input type="date" id="due_date" name="due_date" min="{{ today }}" />
-          </div>
-          <div>
-            <label for="status">Status</label>
-            <select id="status" name="status">
-              <option value="todo" selected>Todo</option>
-              <option value="in_progress">In Progress</option>
-              <option value="done">Done</option>
-            </select>
-          </div>
-          <div>
-            <button type="submit">Add task</button>
-          </div>
-        </div>
-      </form>
-    </div>
-
     <div class="filters">
       <form method="get" action="/tasks">
         <label for="status">Filter by status:</label>
@@ -77,7 +47,7 @@
           <th>Action</th>
         </tr>
       </thead>
-      <tbody>
+      <tbody id="tasks-body">
         {% for task in tasks %}
           <tr>
             <td>{{ task.id }}</td>
@@ -87,13 +57,13 @@
             <td>{{ task.created_at }}</td>
             <td>{{ task.due_date or '' }}</td>
             <td>
-              {% if task.status != 'done' %}
-                <form class="inline" method="post" action="/tasks/{{ task.id }}/done">
+              <form class="inline" method="post" action="/tasks/{{ task.id }}/toggle">
+                {% if task.status != 'done' %}
                   <button type="submit">Mark done</button>
-                </form>
-              {% else %}
-                Done
-              {% endif %}
+                {% else %}
+                  <button type="submit" class="secondary">Mark todo</button>
+                {% endif %}
+              </form>
             </td>
           </tr>
         {% else %}
@@ -105,5 +75,76 @@
     </table>
 
     <p><a href="/">Back home</a></p>
+    <script>
+      (function () {
+        const bodyEl = document.getElementById("tasks-body");
+        const statusSelect = document.querySelector(".filters select[name='status']");
+
+        function escapeHtml(value) {
+          return String(value)
+            .replaceAll("&", "&amp;")
+            .replaceAll("<", "&lt;")
+            .replaceAll(">", "&gt;")
+            .replaceAll('"', "&quot;")
+            .replaceAll("'", "&#39;");
+        }
+
+        function formatDate(value) {
+          if (!value) return "";
+          return escapeHtml(value);
+        }
+
+        function renderRows(tasks) {
+          if (!Array.isArray(tasks) || tasks.length === 0) {
+            bodyEl.innerHTML = "<tr><td colspan=\"7\">No tasks found.</td></tr>";
+            return;
+          }
+          bodyEl.innerHTML = tasks
+            .map((task) => {
+              const id = escapeHtml(task.id);
+              const title = escapeHtml(task.title);
+              const description = escapeHtml(task.description || "");
+              const status = escapeHtml(task.status);
+              const createdAt = escapeHtml(task.created_at || "");
+              const dueDate = formatDate(task.due_date);
+              const action =
+                task.status !== "done"
+                  ? `<form class="inline" method="post" action="/tasks/${id}/toggle"><button type="submit">Mark done</button></form>`
+                  : `<form class="inline" method="post" action="/tasks/${id}/toggle"><button type="submit" class="secondary">Mark todo</button></form>`;
+              return `<tr>
+                <td>${id}</td>
+                <td>${title}</td>
+                <td>${description}</td>
+                <td>${status}</td>
+                <td>${createdAt}</td>
+                <td>${dueDate}</td>
+                <td>${action}</td>
+              </tr>`;
+            })
+            .join("");
+        }
+
+        async function fetchTasks() {
+          const params = new URLSearchParams();
+          const status = statusSelect ? statusSelect.value : "";
+          if (status) params.set("status", status);
+          const url = params.toString() ? `/api/tasks?${params}` : "/api/tasks";
+          const res = await fetch(url, { headers: { Accept: "application/json" } });
+          if (!res.ok) return;
+          const tasks = await res.json();
+          renderRows(tasks);
+        }
+
+        if (statusSelect) {
+          statusSelect.addEventListener("change", (event) => {
+            event.preventDefault();
+            fetchTasks();
+          });
+        }
+
+        fetchTasks();
+        setInterval(fetchTasks, 5000);
+      })();
+    </script>
   </body>
 </html>
