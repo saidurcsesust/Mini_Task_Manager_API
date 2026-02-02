@@ -111,7 +111,7 @@ Filter + sort examples:
 ```bash
 curl -i "http://127.0.0.1:5000/api/tasks?status=todo"
 
-curl -i "http://127.0.0.1:5000/api/tasks?q=oil&sort=due_date"
+curl -i "http://127.0.0.1:5000/api/tasks&sort=due_date"
 
 curl -i "http://127.0.0.1:5000/api/tasks?sort=id"
 ```
