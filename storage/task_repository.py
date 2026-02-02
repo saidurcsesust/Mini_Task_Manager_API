@@ -47,6 +47,8 @@ class TaskRepository:
                 stmt = stmt.where(or_(Task.title.ilike(pattern), Task.description.ilike(pattern)))
             if sort == "due_date":
                 stmt = stmt.order_by(Task.due_date.is_(None), Task.due_date.asc(), Task.created_at.desc())
+            elif sort == "id":
+                stmt = stmt.order_by(Task.id.asc())
             else:
                 stmt = stmt.order_by(Task.created_at.desc())
             tasks = session.execute(stmt).scalars().all()

@@ -262,7 +262,8 @@
           const params = new URLSearchParams();
           const status = statusSelect ? statusSelect.value : "";
           if (status) params.set("status", status);
-          const url = params.toString() ? `/api/tasks?${params}` : "/api/tasks";
+          params.set("sort", "id");
+          const url = `/api/tasks?${params}`;
           const res = await fetch(url, { headers: { Accept: "application/json" } });
           if (!res.ok) return;
           const tasks = await res.json();

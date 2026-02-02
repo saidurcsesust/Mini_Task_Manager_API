@@ -42,7 +42,7 @@ def list_tasks():
 
     if status and not validate_status(status):
         return _error("Invalid status", 400)
-    if sort not in {"due_date", "created_at"}:
+    if sort not in {"due_date", "created_at", "id"}:
         sort = "created_at"
 
     tasks = _repo().list(status=status, q=q, sort=sort)

@@ -40,7 +40,7 @@ def tasks_page():
         status = None
     from datetime import date
 
-    tasks = _repo().list(status=status)
+    tasks = _repo().list(status=status, sort="id")
     logger.info("Rendered tasks page count=%s", len(tasks))
     return render_template(
         "tasks.html",
