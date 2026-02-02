@@ -2094,3 +2094,247 @@
 [2026-02-02 12:59:46,501] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 12:59:46] "GET /api/tasks HTTP/1.1" 200 -
 [2026-02-02 13:00:46,505] INFO routes.api: Listed tasks count=4
 [2026-02-02 13:00:46,505] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:00:46] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 13:01:46,502] INFO routes.api: Listed tasks count=4
+[2026-02-02 13:01:46,502] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:01:46] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 13:02:46,506] INFO routes.api: Listed tasks count=4
+[2026-02-02 13:02:46,507] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:02:46] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 13:03:46,504] INFO routes.api: Listed tasks count=4
+[2026-02-02 13:03:46,505] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:03:46] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 13:04:46,506] INFO routes.api: Listed tasks count=4
+[2026-02-02 13:04:46,507] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:04:46] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 13:04:57,321] INFO routes.api: Listed tasks count=4
+[2026-02-02 13:04:57,322] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:04:57] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 13:04:57,998] INFO routes.api: Listed tasks count=4
+[2026-02-02 13:04:57,998] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:04:57] "GET /api/tasks HTTP/1.1" 200 -
+[2026-02-02 13:05:02,973] INFO routes.web: Rendered tasks page count=4
+[2026-02-02 13:05:02,974] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:05:02] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 13:05:03,048] INFO routes.api: Listed tasks count=4
+[2026-02-02 13:05:03,049] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:05:03] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:05:08,051] INFO routes.api: Listed tasks count=4
+[2026-02-02 13:05:08,051] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:05:08] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:05:13,500] INFO routes.api: Listed tasks count=4
+[2026-02-02 13:05:13,500] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:05:13] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:05:18,500] INFO routes.api: Listed tasks count=4
+[2026-02-02 13:05:18,500] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:05:18] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:05:23,051] INFO routes.api: Listed tasks count=4
+[2026-02-02 13:05:23,051] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:05:23] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:05:28,051] INFO routes.api: Listed tasks count=4
+[2026-02-02 13:05:28,051] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:05:28] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:05:29,756] INFO storage.task_repository: Synced JSON store count=3
+[2026-02-02 13:05:29,756] INFO storage.task_repository: Repo deleted task 3
+[2026-02-02 13:05:29,756] INFO routes.api: Deleted task 3
+[2026-02-02 13:05:29,757] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:05:29] "DELETE /api/tasks/3 HTTP/1.1" 200 -
+[2026-02-02 13:05:33,051] INFO routes.api: Listed tasks count=3
+[2026-02-02 13:05:33,051] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:05:33] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:05:38,051] INFO routes.api: Listed tasks count=3
+[2026-02-02 13:05:38,051] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:05:38] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:05:43,051] INFO routes.api: Listed tasks count=3
+[2026-02-02 13:05:43,051] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:05:43] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:05:48,051] INFO routes.api: Listed tasks count=3
+[2026-02-02 13:05:48,051] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:05:48] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:05:53,051] INFO routes.api: Listed tasks count=3
+[2026-02-02 13:05:53,051] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:05:53] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:05:58,051] INFO routes.api: Listed tasks count=3
+[2026-02-02 13:05:58,051] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:05:58] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:06:03,051] INFO routes.api: Listed tasks count=3
+[2026-02-02 13:06:03,051] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:06:03] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:06:08,055] INFO routes.api: Listed tasks count=3
+[2026-02-02 13:06:08,056] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:06:08] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:06:13,499] INFO routes.api: Listed tasks count=3
+[2026-02-02 13:06:13,499] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:06:13] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:06:18,501] INFO routes.api: Listed tasks count=3
+[2026-02-02 13:06:18,501] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:06:18] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:06:23,499] INFO routes.api: Listed tasks count=3
+[2026-02-02 13:06:23,500] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:06:23] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:06:28,501] INFO routes.api: Listed tasks count=3
+[2026-02-02 13:06:28,501] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:06:28] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:06:33,501] INFO routes.api: Listed tasks count=3
+[2026-02-02 13:06:33,501] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:06:33] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:06:38,496] INFO routes.api: Listed tasks count=3
+[2026-02-02 13:06:38,496] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:06:38] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:06:43,499] INFO routes.api: Listed tasks count=3
+[2026-02-02 13:06:43,500] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:06:43] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:06:48,505] INFO routes.api: Listed tasks count=3
+[2026-02-02 13:06:48,507] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:06:48] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:07:16,521] INFO werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2026-02-02 13:07:16,521] INFO werkzeug: [33mPress CTRL+C to quit[0m
+[2026-02-02 13:07:17,005] INFO routes.web: Rendered tasks page count=3
+[2026-02-02 13:07:17,027] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:07:17] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 13:07:17,148] INFO routes.api: Listed tasks count=3
+[2026-02-02 13:07:17,150] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:07:17] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:07:19,259] INFO routes.web: Rendered tasks page count=3
+[2026-02-02 13:07:19,260] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:07:19] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 13:07:19,326] INFO routes.api: Listed tasks count=3
+[2026-02-02 13:07:19,327] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:07:19] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:07:19,954] INFO routes.web: Rendered tasks page count=3
+[2026-02-02 13:07:19,955] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:07:19] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 13:07:20,019] INFO routes.api: Listed tasks count=3
+[2026-02-02 13:07:20,019] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:07:20] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:07:21,002] INFO routes.web: Rendered tasks page count=3
+[2026-02-02 13:07:21,003] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:07:21] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 13:07:21,077] INFO routes.api: Listed tasks count=3
+[2026-02-02 13:07:21,080] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:07:21] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:07:26,501] INFO routes.api: Listed tasks count=3
+[2026-02-02 13:07:26,502] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:07:26] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:07:31,499] INFO routes.api: Listed tasks count=3
+[2026-02-02 13:07:31,500] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:07:31] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:07:41,287] INFO storage.task_repository: Synced JSON store count=4
+[2026-02-02 13:07:41,288] INFO storage.task_repository: Repo created task 8
+[2026-02-02 13:07:41,308] INFO storage.task_repository: Synced JSON store count=5
+[2026-02-02 13:07:41,308] INFO storage.task_repository: Repo created task 9
+[2026-02-02 13:07:41,330] INFO storage.task_repository: Synced JSON store count=6
+[2026-02-02 13:07:41,330] INFO storage.task_repository: Repo created task 10
+[2026-02-02 13:07:41,358] INFO storage.task_repository: Synced JSON store count=7
+[2026-02-02 13:07:41,358] INFO storage.task_repository: Repo created task 11
+[2026-02-02 13:07:51,565] INFO werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2026-02-02 13:07:51,565] INFO werkzeug: [33mPress CTRL+C to quit[0m
+[2026-02-02 13:07:53,242] INFO routes.web: Rendered tasks page count=7
+[2026-02-02 13:07:53,254] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:07:53] "GET /tasks HTTP/1.1" 200 -
+[2026-02-02 13:07:53,464] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:07:53,465] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:07:53] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:07:58,462] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:07:58,462] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:07:58] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:08:03,462] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:08:03,462] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:08:03] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:08:08,462] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:08:08,462] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:08:08] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:08:13,462] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:08:13,462] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:08:13] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:08:18,461] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:08:18,462] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:08:18] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:08:23,461] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:08:23,462] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:08:23] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:08:28,461] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:08:28,462] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:08:28] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:08:33,461] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:08:33,462] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:08:33] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:08:38,462] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:08:38,462] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:08:38] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:08:43,461] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:08:43,462] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:08:43] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:08:48,462] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:08:48,462] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:08:48] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:08:53,461] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:08:53,462] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:08:53] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:08:58,461] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:08:58,462] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:08:58] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:09:03,462] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:09:03,462] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:09:03] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:09:08,462] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:09:08,462] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:09:08] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:09:13,461] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:09:13,462] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:09:13] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:09:18,462] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:09:18,462] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:09:18] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:09:23,461] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:09:23,462] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:09:23] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:09:28,462] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:09:28,462] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:09:28] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:09:33,461] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:09:33,462] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:09:33] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:09:38,462] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:09:38,462] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:09:38] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:09:43,461] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:09:43,462] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:09:43] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:09:48,459] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:09:48,460] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:09:48] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:09:53,462] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:09:53,462] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:09:53] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:09:58,461] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:09:58,462] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:09:58] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:10:03,501] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:10:03,502] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:10:03] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:10:08,499] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:10:08,499] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:10:08] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:10:13,502] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:10:13,502] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:10:13] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:10:18,499] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:10:18,499] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:10:18] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:10:23,500] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:10:23,500] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:10:23] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:10:28,499] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:10:28,499] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:10:28] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:10:33,499] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:10:33,499] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:10:33] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:10:38,502] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:10:38,502] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:10:38] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:10:43,499] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:10:43,500] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:10:43] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:10:48,498] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:10:48,498] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:10:48] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:10:53,498] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:10:53,499] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:10:53] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:10:58,497] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:10:58,497] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:10:58] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:11:46,508] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:11:46,508] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:11:46] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:12:46,510] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:12:46,510] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:12:46] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:13:46,500] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:13:46,501] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:13:46] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:14:46,516] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:14:46,517] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:14:46] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:15:46,507] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:15:46,507] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:15:46] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:16:46,510] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:16:46,510] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:16:46] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:17:46,504] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:17:46,505] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:17:46] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:18:46,504] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:18:46,504] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:18:46] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:19:46,508] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:19:46,509] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:19:46] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:20:46,510] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:20:46,511] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:20:46] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:21:46,506] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:21:46,507] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:21:46] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:22:46,509] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:22:46,510] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:22:46] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:23:46,502] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:23:46,503] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:23:46] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:24:46,502] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:24:46,502] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:24:46] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:25:46,499] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:25:46,500] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:25:46] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:26:46,500] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:26:46,501] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:26:46] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:27:46,499] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:27:46,499] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:27:46] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:28:46,505] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:28:46,505] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:28:46] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:29:46,503] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:29:46,504] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:29:46] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:30:46,507] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:30:46,508] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:30:46] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:31:46,506] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:31:46,506] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:31:46] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:32:46,508] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:32:46,509] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:32:46] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:33:46,505] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:33:46,505] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:33:46] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:34:46,500] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:34:46,500] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:34:46] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:35:46,504] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:35:46,504] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:35:46] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:36:46,506] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:36:46,507] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:36:46] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:37:46,507] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:37:46,507] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:37:46] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:38:46,501] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:38:46,502] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:38:46] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:39:46,498] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:39:46,498] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:39:46] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:40:46,510] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:40:46,510] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:40:46] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:41:46,502] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:41:46,503] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:41:46] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:42:46,504] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:42:46,505] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:42:46] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:43:46,503] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:43:46,504] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:43:46] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:44:46,498] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:44:46,498] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:44:46] "GET /api/tasks?sort=id HTTP/1.1" 200 -
+[2026-02-02 13:45:46,525] INFO routes.api: Listed tasks count=7
+[2026-02-02 13:45:46,531] INFO werkzeug: 127.0.0.1 - - [02/Feb/2026 13:45:46] "GET /api/tasks?sort=id HTTP/1.1" 200 -
