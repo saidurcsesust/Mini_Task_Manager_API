@@ -29,6 +29,22 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
+## Seed dummy data
+
+```bash
+python scripts/seed_data.py
+```
+
+Add `--force` to overwrite existing data.
+
+## Run the app
+
+```bash
+flask run
+```
+
+The server listens on `http://127.0.0.1:5000`.
+
 ## Environment
 
 By default the app uses SQLite at `data/tasks.db`.
@@ -39,21 +55,6 @@ Optional custom DB path:
 export DATABASE_URL=sqlite:///data/tasks.db
 ```
 
-## Run the app
-
-```bash
-flask run
-```
-
-The server listens on `http://127.0.0.1:5000`.
-
-## Seed dummy data
-
-```bash
-python scripts/seed_data.py
-```
-
-Add `--force` to overwrite existing data.
 
 ## API Reference
 
@@ -95,7 +96,7 @@ curl -i -X PUT http://127.0.0.1:5000/api/tasks/1 \
 ### Delete a task
 
 ```bash
-curl -i -X DELETE http://127.0.0.1:5000/api/tasks/1
+curl -i -X DELETE http://127.0.0.1:5000/api/tasks/4
 ```
 
 ### List tasks
@@ -116,13 +117,6 @@ curl -i "http://127.0.0.1:5000/api/tasks&sort=due_date"
 curl -i "http://127.0.0.1:5000/api/tasks?sort=id"
 ```
 
-### Get a single task
-
-- Endpoint: `GET /api/tasks/<id>`
-
-```bash
-curl -i http://127.0.0.1:5000/api/tasks/1
-```
 
 ### Update a task
 
