@@ -4,3 +4,4 @@ __pycache__
 myenv
 utils/__pycache__
 logs
+.venv
